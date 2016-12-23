@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="fi.helsinki.cs.iotlab.sensorconsumer">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".service.placeholder.SensorConsumerService1"
+            android:enabled="true"
+            android:exported="false"
+            android:isolatedProcess="true" />
+        <service
+            android:name=".service.placeholder.SensorConsumerService2"
+            android:enabled="true"
+            android:exported="false"
+            android:isolatedProcess="true" />
+        <service
+            android:name=".service.placeholder.SensorConsumerService3"
+            android:enabled="true"
+            android:exported="false"
+            android:isolatedProcess="true" />
+        <service
+            android:name=".service.placeholder.SensorConsumerService4"
+            android:enabled="true"
+            android:exported="false"
+            android:isolatedProcess="true" />
+        <service
+            android:name=".service.placeholder.SensorConsumerService5"
+            android:enabled="true"
+            android:exported="false"
+            android:isolatedProcess="true" />
+        <service
+            android:name=".service.placeholder.SensorConsumerService6"
+            android:enabled="true"
+            android:exported="false"
+            android:isolatedProcess="true" />
+        <service
+            android:name=".service.placeholder.SensorConsumerService7"
+            android:enabled="true"
+            android:exported="false"
+            android:isolatedProcess="true" />
+        <service
+            android:name=".service.placeholder.SensorConsumerService8"
+            android:enabled="true"
+            android:exported="false"
+            android:isolatedProcess="true" />
+        <service
+            android:name=".service.placeholder.SensorConsumerService9"
+            android:enabled="true"
+            android:exported="false"
+            android:isolatedProcess="true" />
+        <service
+            android:name=".service.placeholder.SensorConsumerService10"
+            android:enabled="true"
+            android:exported="false"
+            android:isolatedProcess="true" />
+        <service
+            android:name=".service.placeholder.SensorConsumerService11"
+            android:enabled="true"
+            android:exported="false"
+            android:isolatedProcess="true" />
+        <service
+            android:name=".service.placeholder.SensorConsumerService12"
+            android:enabled="true"
+            android:exported="false"
+            android:isolatedProcess="true" />
+        <service
+            android:name=".service.placeholder.SensorConsumerService13"
+            android:enabled="true"
+            android:exported="false"
+            android:isolatedProcess="true" />
+        <service
+            android:name=".service.placeholder.SensorConsumerService14"
+            android:enabled="true"
+            android:exported="false"
+            android:isolatedProcess="true" />
+        <service
+            android:name=".service.placeholder.SensorConsumerService15"
+            android:enabled="true"
+            android:exported="false"
+            android:isolatedProcess="true" />
+        <service
+            android:name=".service.placeholder.SensorConsumerService16"
+            android:enabled="true"
+            android:exported="false"
+            android:isolatedProcess="true" />
+        <service
+            android:name=".service.placeholder.SensorConsumerService17"
+            android:enabled="true"
+            android:exported="false"
+            android:isolatedProcess="true" />
+        <service
+            android:name=".service.placeholder.SensorConsumerService18"
+            android:enabled="true"
+            android:exported="false"
+            android:isolatedProcess="true" />
+        <service
+            android:name=".service.placeholder.SensorConsumerService19"
+            android:enabled="true"
+            android:exported="false"
+            android:isolatedProcess="true" />
+        <service
+            android:name=".service.placeholder.SensorConsumerService20"
+            android:enabled="true"
+            android:exported="false"
+            android:isolatedProcess="true" />
+
+    </application>
+
+</manifest>
